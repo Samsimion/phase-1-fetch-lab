@@ -13,7 +13,7 @@ describe( "index.js", () => {
 
     beforeEach( () => {
       window.document.body.innerHTML = '<main></main>'
-      window.fetch = require( 'node-fetch' );
+      window.fetch = require( 'node-fetch' ); 
     } );
 
     it( "sends a fetch request to 'https://anapioficeandfire.com/api/books'", async () => {
