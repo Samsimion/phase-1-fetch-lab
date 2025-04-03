@@ -4,7 +4,7 @@ function fetchBooks() {
   .then(res=>res.json())
   .then(books=>renderBooks(books))
   
-}
+} 
 
 function renderBooks(books) {
   const main = document.querySelector('main');
